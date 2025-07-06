@@ -1,7 +1,7 @@
 
 import logo from '../assets/logo2.png';
 import {useState} from 'react';
-import Mobiledraw  from './ui/MobileDrawer';
+import MobileDrawer  from './ui/MobileDrawer';
 
 function Navbar ( {onHomeClick, onServiceClick, onTestimonialClick, onFooterClick} ) {
    
@@ -31,14 +31,14 @@ function Navbar ( {onHomeClick, onServiceClick, onTestimonialClick, onFooterClic
     
     </div>
        {/* Mobile Menu */}
-   <Mobiledraw isOpen={menuOpen} onClose={()=> setMenuOpen(false)}>
+   <MobileDrawer isOpen={menuOpen} onClose={()=> setMenuOpen(false)}>
        <ul className="flex flex-col gap-4 text-lg font-medium">
     <li onClick={() => { onHomeClick(); setMenuOpen(false); }}>Home</li>
     <li onClick={() => { onServiceClick(); setMenuOpen(false); }}>Services</li>
     <li onClick={() => { onTestimonialClick(); setMenuOpen(false); }}>Testimonials</li>
     <li onClick={() => { onFooterClick(); setMenuOpen(false); }}>About us</li>
   </ul>
-    </Mobiledraw>
+    </MobileDrawer>
     </>
     
  )
