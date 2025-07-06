@@ -2,7 +2,7 @@ import {useRef, useEffect} from 'react';
 import Navbar from './components/navbar';
 import Home from './components/HomeScreen';
 import Service from './components/Service';
-import Testimonial from './components/TestimonialPage';
+import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
