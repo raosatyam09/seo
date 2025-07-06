@@ -1,7 +1,7 @@
 import {useRef, useEffect} from 'react';
 import Navbar from './components/navbar';
 import Home from './components/HomeScreen';
-import Services from './components/ServicePage';
+import Service from './components/Service';
 import Testimonial from './components/TestimonialPage';
 import Footer from './components/Footer';
 import AOS from 'aos';
@@ -40,7 +40,7 @@ function App (){
       {/* sections are hrere !! */}
 
             <div ref={homeRef}><Home /></div>
-            <div ref={serviceRef}> <Services/></div>
+            <div ref={serviceRef}> <Service/></div>
             <div ref={testimonialRef}> <Testimonial /></div>
             <div ref={footerRef}></div>
 

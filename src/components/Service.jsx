@@ -6,7 +6,7 @@ import content from '../assets/images/contentwriting.png';
 import search from '../assets/images/search.png';
 
 
-function ServicePage (){
+function Service (){
     return(
 
  <section data-aos="fade-up" className="bg-[#F0F0F0] min-h-screen w-full color-black">
@@ -75,4 +75,4 @@ function ServicePage (){
 
     )
 }
-export default ServicePage;
+export default Service;
