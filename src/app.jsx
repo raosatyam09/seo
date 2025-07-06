@@ -1,8 +1,8 @@
 import {useRef, useEffect} from 'react';
 import Navbar from './components/navbar';
 import Home from './components/HomeScreen';
-import Services from './components/services';
-import Testimonial from './components/Testimonial';
+import Services from './components/ServicePage';
+import Testimonial from './components/TestimonialPage';
 import Footer from './components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

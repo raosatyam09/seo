@@ -62,7 +62,7 @@
 // };
 // export default MobileDraw;
 
-const MobileDraw=({isOpen, onClose, children}) =>{
+const MobileDrawer=({isOpen, onClose, children}) =>{
 return(
   <div
   className={`fixed inset-0 z-50 bg-transparent backdrop-blur-xs bg-opacity-50 transition-opacity duration-300 ${
@@ -80,4 +80,4 @@ return(
 </div>
 )
 }
-export default MobileDraw;
+export default MobileDrawer;

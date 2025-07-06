@@ -7,7 +7,7 @@ import codesaint from '../assets/images/codesaint.jpeg';
 import person3 from '../assets/images/person3.jpg';
 import person2 from '../assets/images/person2.webp';
 
- function Testimonial() {
+ function TestimonialPage() {
 
    const swiperRef = useRef(null);
    useEffect(() =>{
@@ -172,5 +172,5 @@ import person2 from '../assets/images/person2.webp';
     </div>
   );
 };
-export default Testimonial;
+export default TestimonialPage;
 

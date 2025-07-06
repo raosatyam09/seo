@@ -1,7 +1,7 @@
 
 import logo from '../assets/logo2.png';
 import {useState} from 'react';
-import Mobiledraw  from './ui/MobileDraw';
+import Mobiledraw  from './ui/MobileDrawer';
 
 function Navbar ( {onHomeClick, onServiceClick, onTestimonialClick, onFooterClick} ) {
    
