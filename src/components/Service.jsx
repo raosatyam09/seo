@@ -66,7 +66,7 @@ function Service (){
             <div className="w-[70px] h-auto p-2">
                 <img src={convert} alt="conversion"/>
             </div>
-            Conversion
+            White-Hat SEO Practices
            <div className="text-sm pt-2">buy, discount, sale or product-specific terms with best, review, or alternative </div>
         </div>
 
@@ -74,7 +74,7 @@ function Service (){
             <div className="w-[70px] h-auto p-2">
                 <img src={convert} alt="conversion"/>
             </div>
-            Conversion
+            Organic SEO Services
            <div className="text-sm pt-2">buy, discount, sale or product-specific terms with best, review, or alternative </div>
         </div>
 
