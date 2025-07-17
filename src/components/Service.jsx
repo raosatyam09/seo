@@ -72,7 +72,7 @@ function Service (){
 
          <div className="w-xs h-[360px] bg-[#FFFFFF] rounded-2xl mb-8 text-xl font-bold p-4 transition-transform duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg hover:shadow-black/30"> 
             <div className="w-[70px] h-auto p-2">
-                <img src={convert} alt="conversion"/>
+                <img src={marketing} alt="conversion"/>
             </div>
             Organic SEO Services
            <div className="text-sm pt-2">buy, discount, sale or product-specific terms with best, review, or alternative </div>
