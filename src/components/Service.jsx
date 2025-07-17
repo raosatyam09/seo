@@ -61,6 +61,26 @@ function Service (){
              <div className="text-sm pt-2"> informational, navigational, transactional, educational, entaintainment </div>
         </div>
 
+{/*         on line number 63 i am making some changes here  */}
+         <div className="w-xs h-[360px] bg-[#FFFFFF] rounded-2xl mb-8 text-xl font-bold p-4 transition-transform duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg hover:shadow-black/30"> 
+            <div className="w-[70px] h-auto p-2">
+                <img src={convert} alt="conversion"/>
+            </div>
+            Conversion
+           <div className="text-sm pt-2">buy, discount, sale or product-specific terms with best, review, or alternative </div>
+        </div>
+
+         <div className="w-xs h-[360px] bg-[#FFFFFF] rounded-2xl mb-8 text-xl font-bold p-4 transition-transform duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg hover:shadow-black/30"> 
+            <div className="w-[70px] h-auto p-2">
+                <img src={convert} alt="conversion"/>
+            </div>
+            Conversion
+           <div className="text-sm pt-2">buy, discount, sale or product-specific terms with best, review, or alternative </div>
+        </div>
+
+
+{/* changes are here till here actually added 2 cards   */}
+
 
         <div className="w-xs h-[360px] bg-[#FFFFFF] rounded-2xl mb-4 text-xl font-bold p-4 transition-transform duration-300 ease-in-out hover:-translate-y-3 hover:shadow-lg hover:shadow-black/30"> 
             <div className="w-[60px] h-auto p-2">
